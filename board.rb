@@ -1,5 +1,5 @@
 require 'colorize'
-require 'byebug'
+
 class Board
     def initialize(filePath)
         sudoku_game = File.open(filePath).read
